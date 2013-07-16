@@ -10,4 +10,6 @@
 
 @interface TBViewController : UIViewController
 
+-(void) thisIsATest;
+
 @end

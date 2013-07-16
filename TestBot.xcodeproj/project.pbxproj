@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B11579B9179584C800282375 /* TBViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B11579B8179584C800282375 /* TBViewControllerTests.m */; };
 		B1557FF6179455BD00031BEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1557FF5179455BD00031BEC /* Foundation.framework */; };
 		B1557FF8179455BD00031BEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1557FF7179455BD00031BEC /* CoreGraphics.framework */; };
 		B1557FFA179455BD00031BEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1557FF9179455BD00031BEC /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B11579B8179584C800282375 /* TBViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBViewControllerTests.m; sourceTree = "<group>"; };
 		B1557FF2179455BD00031BEC /* TestBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1557FF5179455BD00031BEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B1557FF7179455BD00031BEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				B1558023179455BD00031BEC /* TestBotTests.m */,
+				B11579B8179584C800282375 /* TBViewControllerTests.m */,
 				B155801E179455BD00031BEC /* Supporting Files */,
 			);
 			path = TestBotTests;
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11579B9179584C800282375 /* TBViewControllerTests.m in Sources */,
 				B1558024179455BD00031BEC /* TestBotTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +473,7 @@
 				B1558029179455BD00031BEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B155802A179455BD00031BEC /* Build configuration list for PBXNativeTarget "TestBotTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +482,7 @@
 				B155802C179455BD00031BEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
