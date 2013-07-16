@@ -206,6 +206,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Epocrates;
 				TargetAttributes = {
+					B1557FF1179455BD00031BEC = {
+						DevelopmentTeam = 2PWDC2F832;
+					};
 					B1558015179455BD00031BEC = {
 						TestTargetID = B1557FF1179455BD00031BEC;
 					};
@@ -393,6 +396,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestBot/TestBot-Prefix.pch";
 				INFOPLIST_FILE = "TestBot/TestBot-Info.plist";
@@ -406,6 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestBot/TestBot-Prefix.pch";
 				INFOPLIST_FILE = "TestBot/TestBot-Info.plist";
