@@ -26,12 +26,12 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)thisIsATest{
+-(NSUInteger)thisIsATest{
     NSArray * testArray = [NSArray arrayWithObject:@"b"] ;
     for (int i = 0; i<1025; i++) {
         testArray = [NSArray arrayWithObjects:@"a",[testArray  firstObject] , nil];
     }
-    NSLog(@"%d",[testArray count]);
+    return [testArray count];
 }
 
 @end

@@ -30,9 +30,13 @@
 - (void)testExample
 {
     TBViewController *tbvc = [[TBViewController alloc]init];
-    [tbvc thisIsATest];
-    NSString* complete = @"got here";
-    XCTAssert(@"got here", @"%@", complete);
+    XCTAssert(@"1025", @"%d", [tbvc thisIsATest]);
+    
+}
+
+-(void) testIdiocy{
+    XCTAssertFalse(NO, @"I'm An Idiot");
+    XCTAssertTrue(YES, @"I'm An Idiot");
 }
 
 @end
