@@ -97,7 +97,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "mv -r &quot;${ARCHIVE_PATH}&quot; &quot;${PROJECT_DIR}&quot;">
+               scriptText = "mv -v -f &quot;${ARCHIVE_PATH}&quot; &quot;${PROJECT_DIR}&quot;">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
