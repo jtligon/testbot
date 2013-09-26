@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>B4E8B343-3BE5-419F-AD74-13931AE24A1C</string>
+	<string>76C5A781-6E21-4051-A83E-DA36655BE2BE</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TestBot</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>http://roosevelt.corp.epocrates.com/git/testbot.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TestBot.xcodeproj/project.xcworkspace</string>
+	<string>TestBot.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>B8460463-FC1E-4655-A763-DE4FF9AFEA4D</key>
-		<string>../..</string>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>http://roosevelt.corp.epocrates.com/git/testbot.git</string>
