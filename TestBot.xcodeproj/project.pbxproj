@@ -204,7 +204,7 @@
 				ORGANIZATIONNAME = Epocrates;
 				TargetAttributes = {
 					B1557FF1179455BD00031BEC = {
-						DevelopmentTeam = 2PWDC2F832;
+						DevelopmentTeam = L25P52WSA5;
 					};
 					B1558015179455BD00031BEC = {
 						TestTargetID = B1557FF1179455BD00031BEC;
